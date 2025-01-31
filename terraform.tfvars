@@ -1,0 +1,11 @@
+aws_region       = "ap-south-1"
+cluster_name     = "authentik-cluster"
+cluster_version  = "1.30"
+vpc_id           = "vpc-04165e3d0331db6f8"
+subnet_ids       = ["subnet-029d5262b7d9fde21", "subnet-05f95701a84d90ddb"]
+db_name          = "authentikdb"
+db_username      = "authentikuser"
+db_password      = "securepassword123"
+db_endpoint      = "authentik-postgresql"
+authentik_version = "4.0.3"
+availability_zone = "ap-south-1a"
